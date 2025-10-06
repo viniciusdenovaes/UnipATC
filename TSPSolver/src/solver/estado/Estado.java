@@ -104,7 +104,7 @@ public class Estado {
 	
 	@Override
 	public String toString() {
-		return "Estado [" + caminho + "]";
+		return "Estado (" + getWeight() + ") [" + caminho + "]";
 	}
 	
 }
